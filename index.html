@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primary Meta Tags -->
+  <title>jquery-Practic</title>
+  <meta name="title" content="jquery">
+  <meta name="description" content="jquery demo website">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="jquery">
+  <meta property="og:title" content="jquery">
+  <meta property="og:description" content="jquery demo website">
+  <meta property="og:image" content="bivashsukul">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="jquery">
+  <meta property="twitter:title" content="jquery">
+  <meta property="twitter:description" content="jquery demo website">
+  <meta property="twitter:image" content="bivashsukul">
+  
+  <!-- Optional Meta Tags -->
+  <meta name="keywords" content="tuyorial,html,css">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="language" content="english">
+  <meta name="revisit-after" content="1 days">
+  <meta name="author" content="jquery">
+  <!-- pe 7 icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+  <!-- font cdn -->
+  <link rel="stylesheet" href="fontawesome-icon/css/all.min.css">
+  <!-- favicon link-->
+  <link rel="icon" href="img">
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css">    
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<!-- ex 1 -->
+<div class="container">
+ <h3>Click the button to Show The <b>Alert</b></h3>
+ <button class="btn-primary btn" id="btn1" type="button">Show alert</button> <hr>
+
+<!-- ex 2 -->
+<h3>Click the button to Show<b>Show/hide Element</b></h3>
+<button class="btn-dark btn" id="btnhi" type="button">Hide</button>
+<button class="btn-dark btn" id="btnsh" type="button">Show</button>
+<button class="btn-dark btn" id="btntog" type="button">Toggle</button>
+<h3 class="text1">Lorem ipsum dolor sit amet.</h3>  <hr>
+
+
+<!-- ex 3 -->
+<h4>Click the button to Show<b> toggle div / (Finished)</b></h4>
+<button class="btn-info btn" id="btndi" type="button">Hide</button>
+<div id="div1">div1 Lorem ipsum dolor, Lorem ipsum dolor
+   sit amet consectetur adipisicing elit. 
+    odit.  sit amet consectetur adipisicing elit. Dolorem, voluptate!</div><hr>
+
+
+<!-- ex4--- -->
+<!-- <h4>Click the button to Show<b> toggle div / (Finished)</b></h4>
+
+<button class="btn-info btn" id="progres" type="button">show/Hide</button><br>
+time to complet: <progress id="proTime" max="5000" value="5000"></progress>
+<br>
+completed : <progress id="proTim" value="0"></progress>
+<div id="idDiv" style="height: 100px;background-color: blueviolet;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, quae.</div>
+
+<hr> -->
+
+<!-- ex5--- -->
+<h4>Click the button to Show<b> text change</b></h4>
+<button class="btn-info btn" id="textCh" type="button">Change Content</button><br>
+
+<h1>bangladesh</h1> 
+<hr>
+
+
+<!-- ex6--- -->
+<h4>Click the button to Show<b> text change</b></h4>
+<button class="btn-info btn" id="textC" type="button">Change Content</button><br>
+<div class="my-div">
+  <h4>This is a div 1</h4>
+</div>
+
+<h2 id="h22">bangladesh</h2>
+
+<p class="my-para">This is a paragraph.</p>
+<hr>
+
+
+<!-- ex7--- -->
+<h4>Click the button to Show<b> add element</b></h4>
+<button id="appe"class="btn-success btn" type="button">append</button><br>
+<h2 id="app">Bangladesh</h2>
+<hr>
+
+<!-- ex8--- -->
+<h4>Click the button to Show<b> add element</b></h4>
+<button id="pre"class="btn-danger btn" type="button">Prepend</button><br>
+<h2 id="pree">Bangladesh</h2>
+<hr>
+
+
+<!-- ex = 9 --- -->
+<h4>Click the button to Show<b> add element</b></h4>
+<button id="befo"class="btn-warning btn" type="button">Before</button><br>
+<h2 id="befor">Bangladesh</h2>
+<hr>
+
+
+<!-- ex = 10 --- -->
+<h4>Click the button to Show<b> add element</b></h4>
+<button id="aft"class="btn-dark btn" type="button">After</button><br>
+<h2 id="afte">Bangladesh</h2>
+<hr>
+
+<!-- ex = 11 --- -->
+<h4>Click the button to Show<b> Attribute</b></h4>
+<button id="attr"class="btn-primary btn" type="button">Attribute</button><br>
+<a id="link" href="https://jquery.com/" target="_blank">Jquery.com</a>
+<hr>
+
+<!-- ex = 12 --- -->
+<h4>Click the button to Show<b> add Css Style</b></h4>
+<button id="sty"class="btn-secondary btn" type="button">Style</button><br>
+<div class="head">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+<hr>
+
+<!-- ex = 13 --- -->
+<h4>Click the button to Show<b> add event listener</b></h4>
+<button id="eve"class="btn-secondary btn" type="button">event-listener</button><br>
+<h1 class="event">Lorem, ipsum dolor.</h1>
+<hr>
+
+<!-- ex = 14 --- -->
+<h4>Click the button to Show<b> toogleClass</b></h4>
+<button id="toogl"class="btn-warning btn" type="button">ToogleClass</button><br>
+<h1 class="to">This is a demo = 1.</h1>
+<hr>
+
+<!-- ex = 15 --- -->
+<h4>Click the button to Show<b> fade in</b></h4>
+<button id="fadei"class="btn-danger btn" type="button">fadeIn</button><br>
+<p class="fadei">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+<hr>
+
+<!-- ex = 16 --- -->
+<h4>Click the button to Show<b> fade out</b></h4>
+<button id="fadeou"class="btn-dark btn" type="button">fadeOut</button><br>
+<p class="fadeo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+<hr>
+
+<!-- ex = 17 --- -->
+<h4>Click the button to Show<b> fade toggle</b></h4>
+<button id="fadetogg"class="btn-info btn" type="button">fadeToggle</button><br>
+<p class="fadetog">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+<hr>
+
+<!-- ex = 18 --- -->
+<h4>Click the button to Show<b> slide up</b></h4>
+<button id="slidu"class="btn-secondary btn" type="button">Slide Up</button><br>
+<div class="my_div1">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+</div>
+<hr>
+
+
+<!-- ex = 19 --- -->
+<h4>Click the button to Show<b> slide toggle</b></h4>
+<button id="slidtogg"class="btn-secondary btn" type="button">Slide Toggle</button><br>
+<div class="my_div2">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+</div>
+<hr>
+
+
+
+<!-- ex = 20 --- -->
+<h4>Click the button to Show<b> Animete Mathod</b></h4>
+<button id="anim"class="btn-warning btn" type="button">Animate</button><br>
+<div class="my_div3">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae neque sunt corrupti aliquam quidem ipsam tempora, alias harum. Perferendis, libero.</p>
+</div>
+<hr>
+
+
+<!-- ex = 21 --- -->
+<h4>Click the button to Show<b> Animete Mathod</b></h4>
+<button id="jsprep"class="btn-warning btn" type="button">Animate</button><br><br>
+<img id="cofee" src="images/img1.jpg" alt="img" style="height:150px ; width: 150px;">
+
+</div> <hr>
+
+<!-- ex = 22 --- -->
+<h4>Click the button to Show<b> Hide</b></h4>
+<button id="dive"class="btn-warning btn" type="button">Animate</button><br><br>
+<div class="divone">Bangladesh Lorem ipsum dolor sit amet.</div>
+<div class="divone"> India : Lorem ipsum dolor sit amet.</div>
+<div class="divone"> </div>
+</div> <hr>
+
+
+<!-- ex = 23 --- -->
+<h4>Click the button to Show<b> This Selector</b></h4>
+<button id="divee"class="btn-secondary btn" type="button">Click ME</button><br><br>
+<div class="m_div">
+  <div class="h2">Bangladesh Lorem ipsum dolor sit amet.</div>
+  <h4> India : Lorem ipsum dolor sit amet.</h4>
+  <div class="divone"> </div>
+</div>
+</div> <hr>
+
+<!-- ex = 24 --- -->
+<h4>Click the button to Show<b> Div/class Selector</b></h4>
+<button id="divee1"class="btn-success btn" type="button">d,clas,p</button><br><br>
+<div class="m_div1">
+  <p class="lorem1"> Lorem ipsum dolor sit amet.</p>
+  <div class="lorem2"> Lorem ipsum dolor sit amet.</div>
+  <h3 class="lorem1">bangladesh</h3>
+</div>
+</div> <hr>
+
+<!-- ex = 25 --- -->
+<h4>Click the button to Show<b> Delay Method</b></h4>
+<button id="del"class="btn-primary btn" type="button">Delay</button><br><br>
+<div id="idiv"> Bangladesh</div>
+</div> <hr>
+
+<!-- ex = 26 --- -->
+<h4>Click the button to Show<b> Delay Method</b></h4>
+<button id="dell"class="btn-primary btn" type="button">Delay</button><br><br>
+<h1 id="idiv1"> Bangladesh Vs Pakistan</h1>
+</div> <hr>
+
+
+<!-- ex27--- -->
+<h4>Click the button to Show<b> toggle div / (Finished)</b></h4>
+
+<button class="btn-info btn" id="progres" type="button">show/Hide</button><br>
+time to complet: <progress id="proTime"min="100" max="5000" value="5000"></progress>
+<br>
+completed : <progress id="procom" value="0"></progress>
+<div id="idDiv" style="height: 100px;background-color: blueviolet;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, quae.</div>
+
+<hr>
+
+<!-- ex =28----------------- -->
+<h4>Click The Button to show <b>html Content</b></h4>
+<button id="ban" class="btn-warning btn" type="button">Html content</button>
+<div class="htm">Lorem ipsum dolor sit amet.</div>
+<hr>
+
+<!-- ex =29----------------- -->
+<h4>Click The Button to show <b>html Content /return old content</b></h4>
+<button id="ban1" class="btn-warning btn" type="button">Html content</button>
+<div class="htm1">Lorem ipsum dolor sit amet.</div>
+<hr>
+
+<!-- ex =30----------------- -->
+<h4>Click The Button to show <b>text</b></h4>
+<button id="text1" class="btn-success btn" type="button">Html content</button>
+<div class="tex1">Lorem ipsum dolor sit amet.</div>
+<hr>
+
+<!-- ex =31----------------- -->
+<h4>Click The Button to show <b> text /return old content</b></h4>
+<button id="text2" class="btn-success btn" type="button">Html content</button>
+<div class="tex2"><h2>Jon live in canada</h1></div>
+<hr>
+
+
+<!-- ex =32----------------- -->
+<h4>Click The Button to show <b> Dropdown</b></h4>
+<button id="drop1" class="btn-warning btn" type="button">Dropdown text</button>
+<button id="drop2" class="btn-warning btn" type="button">Dropdown select text</button>
+<select name="" id="sel">
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Two</option>
+  <option value="4">Four</option>
+</select>
+<hr>
+
+
+<!-- ex =33----------------- -->
+<h4>Click The Button to show <b> text /return old content</b></h4>
+<button id="text2" class="btn-success btn" type="button">Html content</button>
+<div class="tex2"><h2>Jon live in canada</h1></div>
+<hr>
+
+
+
+
+
+
+
+
+
+<hr>
+<div class="form1 text-center" style="border: 1px solid green;">
+<h1>Click the button to <b>Fill up the form</b></h1>
+<input type="password" name="" id="pass1" placeholder="Enter password"><br>
+<input type="password" name="" id="pass2" placeholder="Enter Conform password"><br><br>
+<button id="loginbutt" type="submit" class="btn btn-danger ">login</button>
+</div>
+
+</div>
+  <!-- script links -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>

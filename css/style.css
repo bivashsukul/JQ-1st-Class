@@ -1,0 +1,139 @@
+/* ex 12 */
+.headdin{
+    font-size: 20px;
+    color: rgb(20, 220, 83); 
+}
+.headdin2{
+    font-style: italic;
+    font-weight: 700;
+}
+/* ex14 */
+.toogleclass{
+    color: crimson;
+    font-family: monospace;
+}
+/* ex15 */
+.fadei{
+    padding: 20px;
+    display: none;
+    background-color: coral;
+}
+/* ex16 */
+ .fadeo{
+    padding: 20px;
+    background-color: #fade;
+} 
+/* ex17 */
+.fadetog{
+    padding: 20px;
+    background-color: rgba(230, 11, 11, 0.933);
+} 
+/* ex18 */
+.my_div1{
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(230, 11, 11, 0.933);
+    background-color: #f2d40f;
+}
+
+
+/* ex19 */
+.my_div2{
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(230, 11, 11, 0.933);
+    background-color: #0fc8f2;
+}
+
+/* ex 20 */
+.my_div3{
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(230, 11, 11, 0.933);
+    background-color: #0ff222;
+}
+
+/* ex 22 */
+.divone{
+    height: 50px;
+    background-color: rgb(254, 73, 2);
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! calculator */
+.calculator{
+    text-align: center;
+}
+.card{
+   text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 ;
+    transition: .33s;
+}
+
+.card:hover{
+    box-shadow: 0 10px 20px 0 ;
+}
+.calc_head #result{
+    width: 375px;
+    height: 90px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+.calc_body .btn{
+    margin: 2px;
+    width: 87px;
+    height: 70px;
+    font-size: 15px;
+    background-color: #1f2326;
+    color: white;
+}   
+.btn:hover{
+    background-color: #1d669e;
+    color: white;
+} 
+.btn-style{
+    background-color: #5F4886;
+}
+
+
+
+/*! form-------------- */
+.form1{
+    background-color: #f2d40f;
+    
+}
